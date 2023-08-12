@@ -30,12 +30,22 @@ node client.js
 #### Sample JSON payload:
 ```json
 {
-  id: 'qaihvtfu2lgp6cfc',
-  attachments: [],
-  text: 'This is the body of the email.\n',
-  html: false,
-  to: [ { address: 'jane.doe@example.com', name: 'Jane Doe' } ],
-  from: [ { address: 'jsmith@example.com', name: 'John Smith' } ]
+  "id": "qaihvtfu2lgp6cfc",
+  "attachments": [],
+  "text": "This is the body of the email.\n",
+  "html": false,
+  "to": [
+    {
+      "address": "jane.doe@example.com",
+      "name": "Jane Doe"
+    }
+  ],
+  "from": [
+    {
+      "address": "jsmith@example.com",
+      "name": "John Smith"
+    }
+  ]
 }
 ```
 ### Next
