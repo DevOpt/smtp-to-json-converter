@@ -35,7 +35,7 @@ node client.js
   text: 'This is the body of the email.\n',
   html: false,
   to: [ { address: 'jane.doe@example.com', name: 'Jane Doe' } ],
-  from: [ { address: 'jsmith@example.com', name: 'John  Smith' } ]
+  from: [ { address: 'jsmith@example.com', name: 'John Smith' } ]
 }
 ```
 ### Next
